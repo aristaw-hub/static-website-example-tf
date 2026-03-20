@@ -1,0 +1,25 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files and backups (contain the state of your infrastructure)
+*.tfstate
+*.tfstate.*.backup
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which may contain sensitive data
+# (e.g., passwords, private keys, secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files (if you save them to a file)
+*tfplan*
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Optional: ignore graph output files
+*.dot
